@@ -1701,6 +1701,14 @@ ul#nav li.current a:after {
 	text-align: left;
 	margin-bottom: 6px;
 }
+.emphasis{
+	/*font-weight: bold;*/
+	color:gray;
+}
+.emphasis-bold{
+	/*font-weight:bold;*/
+	color:gray;
+}
 
 /* media queries:
 /* #services / .service-list */
