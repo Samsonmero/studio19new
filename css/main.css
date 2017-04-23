@@ -611,9 +611,17 @@ hr {
 
 @media only screen and (max-width:600px) {
 	.section-head p {
-		font: 17px/33px "merriweather-light", serif;
+		/*font: 17px/33px "merriweather-light", serif;*/
+		font:15px/1.9 "merriweather-light", sans-serif;
 		width: auto;
 	}
+
+		body {
+		    color: rgba(255, 255, 255, 0.7);
+		}
+		p{
+			font:15px/1.9 "merriweather-light", sans-serif;
+		}
 
 }
 
@@ -2263,7 +2271,8 @@ ul#nav li.current a:after {
 	}
 
 	#contact .right p.lead {
-		font: 17px/33px "merriweather-light", serif;
+		font:15px/1.9 "merriweather-light", sans-serif;
+		color:rgba(255, 255, 255, 0.7);
 	}
 
 }
