@@ -683,7 +683,7 @@ header .logo a {
 	color: transparent;
 	width: 114px;
 	height: 66px;
-	background: url("../images/logoK@2x.png") no-repeat center;
+	background: url("../images/logoK@2x.png") no-repeat right;
 	/*background-size: 61px 14px;*/
 	background-size: contain;
 }
@@ -2050,7 +2050,8 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #testimonials {
-	background: #eaa708;
+	/*background: #eaa708;*/
+	background:#09141f;
 	padding-top: 90px;
 	padding-bottom: 112px;
 	position: relative;
@@ -2109,7 +2110,8 @@ ul#nav li.current a:after {
 	font: 14px/18px "raleway-bold", sans-serif;
 	letter-spacing: 0;
 	text-transform: none;
-	color: rgba(0, 0, 0, 0.6);
+	/*color: rgba(0, 0, 0, 0.6);*/
+	color:rgb(234, 167, 8);
 }
 
 /* control nav */
