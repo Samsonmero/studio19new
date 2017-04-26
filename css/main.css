@@ -1774,7 +1774,7 @@ ul#nav li.current a:after {
 	/*background: #111417;*/
 	background:#09141f;
 	padding-top: 120px;
-	padding-bottom: 120px;
+	/*padding-bottom: 120px;*/
 	border-bottom: 1px solid #15191d;
 }
 
@@ -2052,8 +2052,8 @@ ul#nav li.current a:after {
 #testimonials {
 	/*background: #eaa708;*/
 	background:#09141f;
-	padding-top: 90px;
-	padding-bottom: 112px;
+	padding-top: 120px;
+	/*padding-bottom: 112px;*/
 	position: relative;
 	min-height: 198px;
 	width: 100%;
@@ -2218,7 +2218,7 @@ ul#nav li.current a:after {
 #contact {
 	/*background: #12151B;*/
 	background:#09141f;
-	padding-top: 120px;
+ padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
 	border-bottom: 1px solid #15191d;
