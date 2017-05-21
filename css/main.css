@@ -356,6 +356,7 @@ img.pull-left {
 /* 03. =Preloader
 /* =================================================================== */
 
+/*
 #preloader {
 	position: fixed;
 	top: 0;
@@ -372,6 +373,7 @@ img.pull-left {
 .oldie #preloader {
 	display: none;
 }
+
 
 #loader {
 	position: absolute;
@@ -418,7 +420,7 @@ img.pull-left {
 	}
 
 }
-
+*/yy
 
 /*
 /* 04. =forms
