@@ -433,7 +433,8 @@ img {
 
 .column,
 .columns,
-.bgrid {
+.bgrid,
+.clientsgrid {
 	position: relative;
 	min-height: 1px;
 	float: left;
@@ -670,7 +671,16 @@ img {
 	width: 16.66667%;
 }
 
+/* for our clients*/
+.bgrid-sixth .clientsgrid {
+	width: 16.66667%;
+}
+
 .bgrid-fourth .bgrid {
+	width: 25%;
+}
+/*block grid our clients*/
+.bgrid-fourth .clientsgrid {
 	width: 25%;
 }
 
@@ -686,6 +696,10 @@ img {
 	padding: 0;
 }
 
+/* for our clients*/
+.clientsgrid {
+	padding: 0;
+}
 /* Clearing for block grid columns. Allows columns with
 different heights to align properly.
 --------------------------------------------------------------------- */
@@ -712,6 +726,10 @@ different heights to align properly.
 	.s-bgrid-third .bgrid {
 		width: 33.33333%;
 	}
+	/*for our clients*/
+			.s-bgrid-third .clientsgrid {
+			width: 33.33333%;
+		}
 
 	.s-bgrid-half .bgrid {
 		width: 50%;
@@ -751,6 +769,11 @@ different heights to align properly.
 	}
 
 	.tab-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+/*for our clients*/
+	.tab-bgrid-half .clientsgrid {
 		width: 50%;
 	}
 

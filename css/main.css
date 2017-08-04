@@ -323,6 +323,11 @@ img.pull-left {
 	padding: 0 20px;
 }
 
+/*for our clients*/
+.clientsgrid {
+	padding: 0px 0px 0px 20px;
+}
+
 @media only screen and (max-width:1024px) {
 	.bgrid {
 		padding: 0 18px;
@@ -350,6 +355,37 @@ img.pull-left {
 	}
 
 }
+
+/*for our clients*/
+
+@media only screen and (max-width:1024px) {
+	.clientsgrid {
+		padding: 0 18px;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	.clientsgrid {
+		padding: 0 15px;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.clientsgrid {
+		padding: 0 10px;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.clientsgrid {
+		padding: 0;
+	}
+
+}
+
 
 
 /*
@@ -1703,6 +1739,16 @@ ul#nav li.current a:after {
 	-webkit-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
+}
+
+
+
+ /*Our clients styles
+/* =================================================================== */
+
+#clients {
+	padding-top: 120px;
+	border-bottom: none;
 }
 
 /*
