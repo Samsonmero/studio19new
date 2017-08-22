@@ -413,7 +413,12 @@ img {
 	/*max-width: 1140px;*/
 	margin: 0 auto;
 }
+ .rowclients {
+	width: auto;
+	max-width: none;
+	margin-left: 45px;
 
+}
 .row .row {
 	width: auto;
 	max-width: none;
